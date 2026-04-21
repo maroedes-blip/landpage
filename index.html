@@ -51,6 +51,12 @@
       background: rgba(7,9,15,.75);
       border-bottom: 1px solid var(--border);
     }
+    .nav-logo-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  object-fit: cover;
+}
     .nav-logo {
       display: flex; align-items: center; gap: .75rem;
       font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.25rem;
@@ -475,12 +481,10 @@
 
 <!-- NAV -->
 <nav>
-<a class="nav-logo" href="#">
-  <div class="nav-logo-wrap">
-    <img src="https://i.ibb.co/LDj3jh4x/sualogo.jpg" alt="Maroedes Informática">
-  </div>
-  Maroedes Informática
-</a>
+  <a class="nav-logo" href="#">
+    <img src="https://i.ibb.co/LDj3jh4x/sualogo.jpg" alt="Logo" class="nav-logo-img">
+    Maroedes Informática
+  </a>
  
   <ul class="nav-links">
     <li><a href="#servicos">Serviços</a></li>
